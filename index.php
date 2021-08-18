@@ -8,8 +8,8 @@ $text = $_POST["text"];
 if ($text =="")
 {
     $response = "CON What would you want to check \n";
-    $response = "1. Account Number \n";
-    $response = "2. Account Balance ";
+    $response .= "1. Account Number \n";
+    $response .= "2. Account Balance ";
 }else if($text== "2")
     {
 //Business logic for first level response
